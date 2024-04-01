@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        YouTufe
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <div class="icon-ham">
+          <i class="fa-sharp fa-solid fa-bars fa-lg"></i>
+        </div>
+        <div class="logo">
+          <div class="logo-img">
+            <i class="fa-brands fa-youtube fa-xl"></i>
+          </div>
+          <div class="logo-name">
+            <h1>Youtube</h1>
+            <p>TH</p>
+          </div>
+        </div>
+      </div>
+      <div class="center">
+        <div class="nav-search">
+          <div class="search-tap">
+            <input type="text" placeholder="search" />
+          </div>
+          <div class="icon-search">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          </div>
+        </div>
+        <div class="icon-record">
+          <i class="fa-solid fa-microphone"></i>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="icon">
+          <i class="fa-solid fa-video fa-lg"></i>
+        </div>
+        <div class="icon-bell">
+          <i class="fa-regular fa-bell fa-lg"></i>
+          <div class="bell-circle">
+            <p>4</p>
+          </div>
+        </div>
+        <div class="icon-user">
+          <img src="./sunflower copy.jpg" alt="" />
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="side-bar">
+        <div class="side-box side-bar-1">
+          <div class="list-side actived">
+            <div class="side-icon">
+              <i class="fa-solid fa-house fa-lg"></i>
+            </div>
+            <div class="side-text">Home pages</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"
+                ></path>
+              </svg>
+            </div>
+            <div class="side-text">Shorts</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z"
+                ></path>
+              </svg>
+            </div>
+            <div class="side-text">Tracking</div>
+          </div>
+        </div>
+        <div class="side-box side-bar-2">
+          <div class="list-side">
+            <div class="side-icon"><h3>You</h3></div>
+            <div class="side-text">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <i class="fa-regular fa-address-card fa-lg"></i>
+            </div>
+            <div class="side-text">Your channel</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+              >
+                <g>
+                  <path
+                    d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM22 12c0 5.51-4.49 10-10 10S2 17.51 2 12h1c0 4.96 4.04 9 9 9s9-4.04 9-9-4.04-9-9-9C8.81 3 5.92 4.64 4.28 7.38c-.11.18-.22.37-.31.56L3.94 8H8v1H1.96V3h1v4.74c.04-.09.07-.17.11-.25.11-.22.23-.42.35-.63C5.22 3.86 8.51 2 12 2c5.51 0 10 4.49 10 10z"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="side-text">History</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <i class="fa-solid fa-list fa-lg"></i>
+            </div>
+            <div class="side-text">Playlists</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <i class="fa-regular fa-circle-play fa-lg"></i>
+            </div>
+            <div class="side-text">Yout videos</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM12 3c-4.96 0-9 4.04-9 9s4.04 9 9 9 9-4.04 9-9-4.04-9-9-9m0-1c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="side-text">Watch later</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <i class="fa-regular fa-thumbs-up fa-lg"></i>
+            </div>
+            <div class="side-text">Faverite videos</div>
+          </div>
+        </div>
+        <div class="side-box side-bar-3">
+          <div class="list-side">
+            <div class="side-icon"><h3>Tracking</h3></div>
+            <div class="side-text"></div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <div class="icon-user">
+                <img src="./sunflower copy.jpg" alt="" />
+              </div>
+            </div>
+            <div class="side-text">Sudathip Yaya</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <div class="icon-user">
+                <img src="./sunflower copy.jpg" alt="" />
+              </div>
+            </div>
+            <div class="side-text">Sudathip Yaya</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <div class="icon-user">
+                <img src="./sunflower copy.jpg" alt="" />
+              </div>
+            </div>
+            <div class="side-text">Sudathip Yaya</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <div class="icon-user">
+                <img src="./sunflower copy.jpg" alt="" />
+              </div>
+            </div>
+            <div class="side-text">Sudathip Yaya</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <div class="icon-user">
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+            </div>
+            <div class="side-text">Show 50 more</div>
+          </div>
+        </div>
+        <div class="side-box side-bar-4">
+          <div class="list-side">
+            <div class="side-icon"><h3>Explore</h3></div>
+            <div class="side-text"></div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M19 3.87v9.77C19 17.7 15.86 21 12 21s-7-3.3-7-7.37v-.13c0-1.06.22-2.13.62-3.09.5-1.19 1.29-2.21 2.27-2.97.85-.66 1.83-1.14 2.87-1.65.39-.19.77-.38 1.15-.58.36-.19.72-.38 1.08-.56v3.22l1.55-1.04L19 3.87M20 2l-6 4V3c-.85.44-1.7.88-2.55 1.33-1.41.74-2.9 1.34-4.17 2.32-1.13.87-2.02 2.05-2.58 3.37-.46 1.09-.7 2.29-.7 3.48v.14C4 18.26 7.58 22 12 22s8-3.74 8-8.36V2zM9.45 12.89 14 10v5.7c0 1.82-1.34 3.3-3 3.3s-3-1.47-3-3.3c0-1.19.58-2.23 1.45-2.81z"
+                ></path>
+              </svg>
+            </div>
+            <div class="side-text">Hot</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7zM9 19c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm9-12h-5V5h5v2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="side-text">song</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <i class="fa-solid fa-gamepad fa-lg"></i>
+            </div>
+            <div class="side-text">game</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M11 11v6H7v-6h4m1-1H6v8h6v-8zM3 3.03V21h14l4-4V3.03M20 4v11.99l-.01.01H16v3.99l-.01.01H4V4h16zm-2 4H6V6h12v2zm0 7h-5v-2h5v2zm0-3h-5v-2h5v2z"
+                ></path>
+              </svg>
+            </div>
+            <div class="side-text">massage</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M18 5V2H6v3H3v6l3.23 1.61c.7 2.5 2.97 4.34 5.69 4.38L8 19v3h8v-3l-3.92-2.01c2.72-.04 4.99-1.88 5.69-4.38L21 11V5h-3zM6 11.38l-2-1V6h2v5.38zM15 21H9v-1.39l3-1.54 3 1.54V21zm2-10c0 2.76-2.24 5-5 5s-5-2.24-5-5V3h10v8zm3-.62-2 1V6h2v4.38z"
+                ></path>
+              </svg>
+            </div>
+            <div class="side-text">sport</div>
+          </div>
+        </div>
+        <div class="side-box side-bar-5">
+          <div class="list-side">
+            <div class="side-icon">
+              <i class="fa-solid fa-gear fa-lg"></i>
+            </div>
+            <div class="side-text">Settings</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <i class="fa-regular fa-flag fa-lg"></i>
+            </div>
+            <div class="side-text">Report history</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="side-text">Help</div>
+          </div>
+          <div class="list-side">
+            <div class="side-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                enable-background="new 0 0 24 24"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                focusable="false"
+                style="
+                  pointer-events: none;
+                  display: inherit;
+                  width: 100%;
+                  height: 100%;
+                "
+              >
+                <path
+                  d="M13 14h-2v-2h2v2zm0-9h-2v6h2V5zm6-2H5v16.59l3.29-3.29.3-.3H19V3m1-1v15H9l-5 5V2h16z"
+                ></path>
+              </svg>
+            </div>
+            <div class="side-text">Send feedback</div>
+          </div>
+        </div>
+        <div class="side-box side-bar-6">
+          <p>
+            about media copyright contact us creator advert software developer
+          </p>
+          <p>
+            about media copyright contact us creator advert software developer
+          </p>
+          <div class="copyright">@ 2024 Google LLC</div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="container-menu-bar">
+          <div class="content-bar">
+            <div class="bar-btn btn-actived">All</div>
+            <div class="bar-btn">Live</div>
+            <div class="bar-btn">Music</div>
+            <div class="bar-btn">Lofi</div>
+            <div class="bar-btn">Background</div>
+            <div class="bar-btn">JavaScript</div>
+            <div class="bar-btn">Mixes</div>
+            <div class="bar-btn">News</div>
+            <div class="bar-btn">Guitar</div>
+            <div class="bar-btn">Text</div>
+            <div class="bar-btn">Gaming</div>
+            <div class="bar-btn">Alogorithms</div>
+            <div class="bar-btn">Romantic</div>
+            <div class="bar-btn">JPop</div>
+            <div class="bar-btn">Sales</div>
+            <div class="bar-btn">RockMusic</div>
+            <div class="bar-btn">PopMusic</div>
+            <div class="bar-btn">Flower</div>
+            <div class="bar-btn">Sunshine</div>
+            <div class="bar-btn">Pictures</div>
+            <div class="bar-btn">PopArt</div>
+          </div>
+          <div class="icon-menu-bar">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="main-content-box1">
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/98/2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/98/2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm"
+                    type="video/ogg"
+                  />
+                </video>
+              </div>
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    Lorem ipsum dolor sit amet consectetur elit. Id, aliquam?
+                  </h4>
+                  <p>Cute cat</p>
+                  <div class="view-box">
+                    <p>1.6 million views</p>
+                    <li>1 mounth ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e6/2022-07-20_LJUBLJANA_%C5%A0PICA_CARNIVORA_Canis_lupus_familiaris_DOMA%C4%8CI_PES.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e6/2022-07-20_LJUBLJANA_%C5%A0PICA_CARNIVORA_Canis_lupus_familiaris_DOMA%C4%8CI_PES.webm"
+                    type="video/ogg"
+                  />
+                </video>
+              </div>
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    NASA - RXTE Satellite Catches the Beat of a Midsize Black
+                    Hole
+                  </h4>
+                  <p>Cute dog</p>
+                  <div class="view-box">
+                    <p>90 million views</p>
+                    <li>10 mounths ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Snowball_Fight.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Snowball_Fight.webm"
+                    type="video/ogg"
+                  />
+                </video>
+              </div>
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    A frame-by-frame vector animation of stick figures
+                    participating in a snowball fight with each other
+                  </h4>
+                  <p>Snow man</p>
+                  <div class="view-box">
+                    <p>10 million views</p>
+                    <li>6 mounths ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Snowball_Fight.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Snowball_Fight.webm"
+                    type="video/ogg"
+                  />
+                </video>
+              </div>
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    A frame-by-frame vector animation of stick figures
+                    participating in a snowball fight with each other
+                  </h4>
+                  <p>Snow man</p>
+                  <div class="view-box">
+                    <p>10 million views</p>
+                    <li>6 mounths ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/98/2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/98/2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm"
+                    type="video/ogg"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    Lorem ipsum dolor sit amet consectetur elit. Id, aliquam?
+                  </h4>
+                  <!-- <div class="card-detail-1"> -->
+                  <p>Cute cat</p>
+                  <div class="view-box">
+                    <p>1.6 million views</p>
+                    <li>1 mounth ago</li>
+                  </div>
+
+                  <!-- </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e6/2022-07-20_LJUBLJANA_%C5%A0PICA_CARNIVORA_Canis_lupus_familiaris_DOMA%C4%8CI_PES.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e6/2022-07-20_LJUBLJANA_%C5%A0PICA_CARNIVORA_Canis_lupus_familiaris_DOMA%C4%8CI_PES.webm"
+                    type="video/ogg"
+                  />
+                </video>
+              </div>
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    NASA - RXTE Satellite Catches the Beat of a Midsize Black
+                    Hole
+                  </h4>
+                  <p>Cute dog</p>
+                  <div class="view-box">
+                    <p>90 million views</p>
+                    <li>10 mounths ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-content-box2">
+            <div class="main-box2-header">
+              <div class="main-box2-logo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  style="
+                    pointer-events: none;
+                    display: inherit;
+                    width: 100%;
+                    height: 100%;
+                  "
+                >
+                  <g>
+                    <path
+                      d="M17.77,10.32l-1.2-.5L18,9.06a3.74,3.74,0,0,0-3.5-6.62L6,6.94a3.74,3.74,0,0,0,.23,6.74l1.2.49L6,14.93a3.75,3.75,0,0,0,3.5,6.63l8.5-4.5a3.74,3.74,0,0,0-.23-6.74Z"
+                      fill="red"
+                    ></path>
+                    <polygon
+                      points="10 14.65 15 12 10 9.35 10 14.65"
+                      fill="#fff"
+                    ></polygon>
+                  </g>
+                </svg>
+                <h2>Short</h2>
+              </div>
+              <div class="main-box2-icon">
+                <i class="fa-solid fa-xmark fa-xl"></i>
+              </div>
+            </div>
+            <div class="main-box2-content">
+              <div class="card-content-2">
+                <div class="card-img-2"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-21"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-22"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-23"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-24"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-25"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-2"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-21"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-22"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-23"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-24"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content-2">
+                <div class="card-img-25"></div>
+                <div class="card-text-2">
+                  <div class="card-title-2">
+                    <h4>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Corrupti, tempora.
+                    </h4>
+                  </div>
+                  <div class="card-view-2">
+                    <p>4.5 thousand views</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-box2-showmore">
+              <div class="showmore-box-2">
+                <div class="showmore-text-2">
+                  <h5>Show more</h5>
+                </div>
+                <div class="showmore-icon-2">
+                  <i class="fa-solid fa-chevron-down fa-lg"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-content-box1">
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/98/2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/98/2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm"
+                    type="video/ogg"
+                  />
+                </video>
+              </div>
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    Lorem ipsum dolor sit amet consectetur elit. Id, aliquam?
+                  </h4>
+                  <p>Cute cat</p>
+                  <div class="view-box">
+                    <p>1.6 million views</p>
+                    <li>1 mounth ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e6/2022-07-20_LJUBLJANA_%C5%A0PICA_CARNIVORA_Canis_lupus_familiaris_DOMA%C4%8CI_PES.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e6/2022-07-20_LJUBLJANA_%C5%A0PICA_CARNIVORA_Canis_lupus_familiaris_DOMA%C4%8CI_PES.webm"
+                    type="video/ogg"
+                  />
+                </video>
+              </div>
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    NASA - RXTE Satellite Catches the Beat of a Midsize Black
+                    Hole
+                  </h4>
+                  <p>Cute dog</p>
+                  <div class="view-box">
+                    <p>90 million views</p>
+                    <li>10 mounths ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Snowball_Fight.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Snowball_Fight.webm"
+                    type="video/ogg"
+                  />
+                </video>
+              </div>
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    A frame-by-frame vector animation of stick figures
+                    participating in a snowball fight with each other
+                  </h4>
+                  <p>Snow man</p>
+                  <div class="view-box">
+                    <p>10 million views</p>
+                    <li>6 mounths ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Snowball_Fight.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Snowball_Fight.webm"
+                    type="video/ogg"
+                  />
+                </video>
+              </div>
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    A frame-by-frame vector animation of stick figures
+                    participating in a snowball fight with each other
+                  </h4>
+                  <p>Snow man</p>
+                  <div class="view-box">
+                    <p>10 million views</p>
+                    <li>6 mounths ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-content-1">
+              <div class="card-img-1">
+                <video width="376" height="209" controls>
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/98/2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm"
+                    type="video/mp4"
+                  />
+                  <source
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/98/2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm"
+                    type="video/ogg"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+
+              <div class="card-title-1">
+                <div class="card-user-1">
+                  <img src="./sunflower copy.jpg" alt="" />
+                </div>
+                <div class="card-text-1">
+                  <h4>
+                    Lorem ipsum dolor sit amet consectetur elit. Id, aliquam?
+                  </h4>
+                  <p>Cute cat</p>
+                  <div class="view-box">
+                    <p>1.6 million views</p>
+                    <li>1 mounth ago</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          
+          <!-- <div class="main-content-box4">zone 4</div>
+          <div class="main-content-box5">zone 5</div> -->
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
